@@ -1,0 +1,44 @@
+header {
+  background: green;
+  height: 1em;
+  width: 16em;
+  position: fixed;
+  bottom: 50%;
+  font-size: 20px;
+}
+
+.header-container {
+  width: 700px;
+  height: 800px;
+  background-color: red;
+  position: relative;
+}
+
+nav {
+  background: purple;
+}
+
+article {
+  background: orange;
+  float: left;
+}
+
+aside {
+  background: blue;
+  float: right;
+}
+
+footer {
+  background: aqua;
+  clear: both;
+}
+
+.block-test {
+  display: block;
+  background-color: red;
+  min-width: 600px;
+  max-width: 1000px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

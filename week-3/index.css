@@ -1,0 +1,24 @@
+@media only screen and (min-width: 600px) {
+  /* CSS for desktop only */
+}
+
+.my-content {
+  background: goldenrod;
+    width: 100%;
+  /*border: 10px solid mistyrose;*/
+  /*display: inline;*/
+}
+
+
+@media only screen and (max-width: 768px) {
+  /*This is a media query*/
+  .my-content {
+    background: mistyrose;
+    border: 10px solid goldenrod;
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 768px), (min-width:  1168px) {
+  /* If this browser is displaying this through a screen, and the screen is either 768px or lower, or at least 1168px or higher, then run this CSS */
+}
